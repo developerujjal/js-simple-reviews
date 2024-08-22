@@ -1,0 +1,79 @@
+*{
+    font-family: "Roboto", sans-serif;;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    margin: 0 auto;
+    width: 34%;
+}
+
+.container-text {
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.container-text textarea{
+    display: block;
+    border-radius: 10px;
+    outline: double;
+    padding: 12px;
+    font-size: 1.2rem;
+    width: 94%;
+    height: 170px;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 18px;
+    
+}
+
+header h1 {
+    font-size: 2.1rem;
+}
+
+
+button{
+    background-color: #2AC099;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: 'Oswald';
+    letter-spacing: 1px;
+    transition: background-color 0.3s;
+}
+
+
+button:hover{
+    background-color: #1c9978;
+    cursor: pointer;
+}
+
+.users-review h2 {
+    font-size: 1.8rem;
+    color: red;
+}
+
+
+@media screen and (max-width:639px) {
+    section{
+        width: 88%;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 767px) {
+    section{
+        width: 68%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    section{
+        width: 56%;
+    }
+}
